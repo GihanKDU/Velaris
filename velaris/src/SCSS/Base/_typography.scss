@@ -1,0 +1,58 @@
+@import '../SASS_Utils/variable';
+
+// Weights
+$font-weight-thin:    100;
+$font-weight-light:   300;
+$font-weight-regular: 400;
+$font-weight-medium:  500;
+$font-weight-bold:    700;
+
+
+
+.font-100{
+    font-weight: $font-weight-thin !important;
+}
+.font-300{
+    font-weight: $font-weight-light !important;
+}
+.font-400{
+    font-weight: $font-weight-regular !important;
+}
+.font-500{
+    font-weight: $font-weight-medium !important;
+}
+.font-700{
+    font-weight: $font-weight-bold !important;
+}
+
+
+
+
+.h1{
+font-style: normal;
+font-weight: $font-weight-medium;
+font-size: 38px;
+line-height: 46px;
+}
+
+.primary-paragaph{
+    font-style: normal;
+    font-size: 14px !important;
+    line-height: 22px; 
+    color: $secondry-color; 
+}
+.secondry-paragaph{
+    font-style: normal;
+    font-size: 24px !important;
+    line-height: 22px;  
+    color: $secondry-color; 
+}
+
+.Primary-heading{
+    color: $primary-color;
+}
+
+.secondry-heading{
+    color:$teritory-color;
+}
+

@@ -1,0 +1,84 @@
+.antd-flex{
+    display: flex!important;
+}
+
+.antd-start{
+    justify-content: start!important;
+}
+
+.antd-center{
+    justify-content: center!important;
+}
+
+.antd-end{
+    justify-content: end !important;
+}
+
+.antd-align_center{
+    align-items: center!important;
+}
+
+.line-h{
+    border: solid 0.5px $line;
+    height: 24px;
+    margin: 0 24px;
+}
+
+.line-v{
+    border-bottom: solid 0.5px $line;
+    height: 24px;
+    width: 100%;
+}
+
+
+.ml-1{
+    margin-left: 8px;
+}
+.mr-1{
+    margin-right: 8px;
+}
+
+
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: $primary-color !important;
+}
+.ant-pagination .ant-pagination-item-active{
+    border-color: $primary-color !important;
+    color: $primary-color !important;
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon {
+    background: none !important;
+    border-color: $primary-color !important;
+    .ant-steps-icon{
+        color: $primary-color !important;
+        top: -2.5px !important;
+
+    }
+}
+.ant-steps .ant-steps-item-process .ant-steps-item-icon{
+    background: $primary-color !important;
+    border-color: $primary-color !important;
+}
+
+.ant-steps .ant-steps-item-process .ant-steps-item-title::after {
+    background-color: rgba(5, 5, 5, 0.06);
+}
+
+.ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title::after {
+    background-color:$primary-color !important;
+}
+
+.ant-upload-wrapper .ant-upload-drag p.ant-upload-drag-icon .anticon {
+    color: $primary-color !important;
+  
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+    border-color: $primary-color !important;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    color: $primary-color !important; 
+}

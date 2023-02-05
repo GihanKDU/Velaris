@@ -1,0 +1,28 @@
+@import './SCSS/Base/reset';
+@import './SCSS/Base/typography';
+
+@import './SCSS/Components/button';
+@import './SCSS/Components/dropdown';
+@import './SCSS/Components/img';
+@import './SCSS/Components/form';
+
+@import './SCSS/Layout/footer';
+@import './SCSS/Layout/grid';
+@import './SCSS/Layout/header';
+@import './SCSS/Layout/navigation';
+@import './SCSS/Layout/sidemenu';
+
+@import './SCSS/Pages/home';
+@import './SCSS/Pages/login';
+
+@import './SCSS/SASS_Utils/mixin';
+@import './SCSS/SASS_Utils/variable';
+
+@import './SCSS/Vendors/antd';
+
+
+body {
+    font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial' !important;
+    padding: 25px;
+    background-color: $main-bg !important;
+  }

@@ -1,0 +1,28 @@
+@import '../SASS_Utils/variable';
+
+
+.btn-primary{
+   background-color: $primary-color !important; 
+   
+}
+.btn-secondy{
+    border-color: $primary-color !important; 
+    color: $primary-color !important; 
+}
+.icon-button{
+    background: none !important;
+    color: $secondry-color;
+    box-shadow: none;
+    padding: 0 !important;
+    font-size: 16px;
+
+    .secondry-paragaph{
+        margin-left: 8px;
+    }
+    
+}
+
+
+.icon-button:hover{
+    color: $secondry-color !important;  
+}
