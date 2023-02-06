@@ -22,7 +22,7 @@ function App() {
     
     
       <Col  md={24} lg={32}>
-    <div className='h1'>Welcome!</div>
+    <div className='h1 mb-4'>Welcome!</div>
       </Col>
  
  
