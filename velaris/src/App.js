@@ -26,7 +26,7 @@ function App() {
       </Col>
  
  
-    <Row gutter={12 }>
+    <Row className='w-100' gutter={12 }>
     <Col className=' gutter-row' xs={24} sm={24} md={12}>
      <Card>
        <Tab/>
